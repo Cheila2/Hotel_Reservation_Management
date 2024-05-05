@@ -1,2 +1,4 @@
-package model.dao;public class FuncionarioDAO {
+package model.dao;
+
+public class FuncionarioDAO {
 }

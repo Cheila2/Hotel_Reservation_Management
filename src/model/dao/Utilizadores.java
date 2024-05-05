@@ -1,2 +1,4 @@
-package model.dao;public class Utilizadores {
+package model.dao;
+
+public class Utilizadores {
 }

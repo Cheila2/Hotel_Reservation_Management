@@ -1,2 +1,6 @@
-package enums;public enum tipoUser {
+package enums;
+
+public enum TipoUser {
+    funcionario,
+    cliente
 }

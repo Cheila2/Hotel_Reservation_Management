@@ -1,2 +1,4 @@
-package model.dao;public class ReservaDAO {
+package model.dao;
+
+public class ReservaDAO {
 }

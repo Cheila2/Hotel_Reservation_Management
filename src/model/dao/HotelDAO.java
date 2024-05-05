@@ -1,2 +1,4 @@
-package model.dao;public class HotelDAO {
+package model.dao;
+
+public class HotelDAO {
 }

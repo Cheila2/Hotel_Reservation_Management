@@ -1,2 +1,4 @@
-package model.dao;public class ClienteDAO {
+package model.dao;
+
+public class ClienteDAO {
 }
