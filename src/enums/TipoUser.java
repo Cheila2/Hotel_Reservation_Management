@@ -1,6 +1,9 @@
 package enums;
 
 public enum TipoUser {
-    funcionario,
-    cliente
+
+    cliente,
+    recepcionista,
+    funcionari
+
 }

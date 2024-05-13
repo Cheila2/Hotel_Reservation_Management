@@ -2,17 +2,17 @@ package model.beans;
 
 import enums.TipoUser;
 
-public class Utilizadores {
+public class Utilizador {
     private int idUtilizador;
     private TipoUser tipoUser;
     private String username, password;
 
 
-    public Utilizadores(){
+    public Utilizador(){
 
     }
 
-    public Utilizadores(int idUtilizador, TipoUser tipoUser, String username, String password) {
+    public Utilizador(int idUtilizador, String username, String password,  TipoUser tipoUser) {
         this.idUtilizador = idUtilizador;
         this.tipoUser = tipoUser;
         this.username = username;

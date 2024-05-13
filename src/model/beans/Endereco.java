@@ -3,16 +3,16 @@ package model.beans;
 public class Endereco {
     private int idEndereco;
     private String rua;
-    private int nCasa;
+    private int numeroCasa;
 
     public Endereco(){
 
     }
 
-    public Endereco(int idEndereco, String rua, int nCasa) {
+    public Endereco(int idEndereco, String rua, int numeroCasa) {
         this.idEndereco = idEndereco;
         this.rua = rua;
-        this.nCasa = nCasa;
+        this.numeroCasa = numeroCasa;
     }
 
     public int getIdEndereco() {
@@ -31,11 +31,11 @@ public class Endereco {
         this.rua = rua;
     }
 
-    public int getnCasa() {
-        return nCasa;
+    public int getNumeroCasa() {
+        return numeroCasa;
     }
 
-    public void setnCasa(int nCasa) {
-        this.nCasa = nCasa;
+    public void setNumeroCasa(int numeroCasa) {
+        this.numeroCasa = numeroCasa;
     }
 }
